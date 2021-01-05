@@ -1,0 +1,16 @@
+.ml4 {
+  position: sticky;
+  font-weight: 900;
+  font-size: 4.5em;
+  transform: translate(0%, -88%);
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0;
+  color: white;
+  text-align: center;
+}
