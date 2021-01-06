@@ -10,7 +10,7 @@ import FolderRoundedIcon from '@material-ui/icons/FolderRounded';
 import BarChartRoundedIcon from '@material-ui/icons/BarChartRounded';
 import CheckCircleRoundedIcon from '@material-ui/icons/CheckCircleRounded';
 import CodeRoundedIcon from '@material-ui/icons/CodeRounded';
-import logo from './ChristianLogoFinal.png'
+import logo from './pub/ChristianLogoFinal.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {

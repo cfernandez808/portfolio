@@ -1,5 +1,5 @@
 import React from 'react';
-import neon from './neon.jpg';
+import neon from './pub/neon.jpg';
 
 const Main = () => {
   return (
