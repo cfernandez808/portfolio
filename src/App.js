@@ -3,8 +3,9 @@ import './css/App.css';
 import NavBar from './Navbar'
 import Main from './Main'
 import Bio from './Bio'
-import NameAnime from './NameAnime.js'
-import Timeline from './Timeline.js'
+import NameAnime from './NameAnime'
+import Timeline from './Timeline'
+import Skills from './Skills'
 import { withAuthenticator } from '@aws-amplify/ui-react';
 
 
@@ -17,6 +18,7 @@ function App() {
       <NameAnime />
       <Main />
       <Bio />
+      <Skills />
       <Timeline />
     </div>
   );
