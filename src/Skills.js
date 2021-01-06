@@ -9,7 +9,7 @@ import SportsEsportsRoundedIcon from '@material-ui/icons/SportsEsportsRounded';
 import anime from 'animejs/lib/anime.es.js';
 
 
-export default function CustomizedRatings() {
+export default function Skills() {
 
   useEffect(() => {
     anime.timeline({loop: true})
@@ -57,7 +57,7 @@ export default function CustomizedRatings() {
             icon={<StarsIcon className="letter" fontSize="inherit" />}
           />
           <Typography align="center">
-            AWS Amplify, Rekognition, S3, DynamoDB, JavaScript, Node.js, React-Redux, Express, Sequelize, Postgres, React Native, Expo, REST API, Xcode, Firestore, Git, GitHub, HTML, CSS, Object-oriented Programming
+            Amazon Web Services, Amplify, Rekognition, S3, DynamoDB, JavaScript, Node.js, React-Redux, Express, Sequelize, Postgres, React Native, Expo, REST API, Xcode, Firestore, Git, GitHub, HTML, CSS, Object-oriented Programming
           </Typography>
         </Box>
         <Box component="fieldset" mb={3} borderColor="transparent">

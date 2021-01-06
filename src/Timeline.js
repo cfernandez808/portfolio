@@ -40,7 +40,7 @@ const Timeline = () => {
             <h4 className="vertical-timeline-element-subtitle">Fullstack Engineer</h4>
             <h4 className="vertical-timeline-element-subtitle">Contract, Remote</h4>
             <p>
-              Fullstack mobile and web app development/deployment mainly utilizing React and AWS services
+              Fullstack mobile and web app development/deployment mainly utilizing React and Amazon Web Services
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
