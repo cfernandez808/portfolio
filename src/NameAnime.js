@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import './NameAnime.css'
 import anime from 'animejs/lib/anime.es.js';
-import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import { Typography } from '@material-ui/core';
 

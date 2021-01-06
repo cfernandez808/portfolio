@@ -4,11 +4,11 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
-export default function SimpleContainer() {
+export default function Bio() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md" style={{height: "100vh"}}>
+      <Container maxWidth="md" style={{height: "80vh"}}>
         <Typography
           component="div"
           variant="h1"
@@ -18,7 +18,7 @@ export default function SimpleContainer() {
         >
           // Bio
         </Typography>
-        <Typography component="div" align="center" style={{ backgroundColor: 'white', height: '50vh', borderRadius: 30}}>
+        <Typography component="div" align="center" style={{ backgroundColor: '#37393F', height: '50vh', borderRadius: 30, color: "white"}}>
           <br/>
           <br />
           Picture of me at Naga on left. Short Bio. Long Bio. Respective Descriptions
