@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 import NavBar from './Navbar'
 import Main from './Main'
 import Bio from './Bio'
