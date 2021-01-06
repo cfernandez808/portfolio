@@ -6,6 +6,7 @@ import Bio from './Bio'
 import NameAnime from './NameAnime'
 import Timeline from './Timeline'
 import Skills from './Skills'
+import Projects from './Projects'
 import { withAuthenticator } from '@aws-amplify/ui-react';
 
 
@@ -19,6 +20,7 @@ function App() {
       <Main />
       <Bio />
       <Skills />
+      <Projects />
       <Timeline />
     </div>
   );
