@@ -4,12 +4,13 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import SportsEsportsRoundedIcon from '@material-ui/icons/SportsEsportsRounded';
+import naga from './naga.jpg'
 
 export default function Bio() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md" style={{height: "100vh"}}>
+      <Container maxWidth="md" style={{height: "100%"}}>
         <Typography
           component="div"
           variant="h1"
@@ -21,6 +22,8 @@ export default function Bio() {
         </Typography>
         <Typography component="div" align="center" style={{ backgroundColor: '#37393F', height: '50vh', borderRadius: 30, color: "white"}}>
           <br/>
+          <br />
+          <img src={naga} alt="" height="45%" position='sticky'/>
           <br />
           Picture of me at Naga on left. Short Bio. Long Bio. Respective Descriptions
         </Typography>

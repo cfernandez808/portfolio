@@ -32,17 +32,16 @@ export default function CustomizedRatings() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md" style={{height: "100vh"}}>
+      <Container maxWidth="md" style={{height: "100%"}}>
         <Typography
           component="div"
           variant="h1"
           align="center"
-          gutterBottom= {true}
           style={{color: "white"}}
         >
           <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 50}}/>Skills
         </Typography>
-        <Typography component="div" style={{ backgroundColor: '#37393F', height: '50vh', borderRadius: 30, color: "white"}}>
+        <Typography component="div" style={{ backgroundColor: '#37393F', height: '100%', borderRadius: 30, color: "white"}}>
         <br />
         <br />
 
@@ -93,9 +92,8 @@ export default function CustomizedRatings() {
         </Box>
         <br/>
         <br/>
-        <br/>
         <Typography align="center">
-          <i>(This website is hosted on <b>AWS, and uses Cognito, S3, DyanmoDB, and Lambda</b>... by the way)</i>
+          <i>(This website is hosted on <b>AWS, and uses Cognito, S3, DyanmoDB, and Lambda</b>... by the way)</i><br /> <br />
         </Typography>
         </Typography>
       </Container>
