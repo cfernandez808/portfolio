@@ -10,7 +10,7 @@ export default function Bio() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md" style={{height: "100%"}}>
+      <Container maxWidth="lg" style={{height: "100%"}}>
         <Typography
           component="div"
           variant="h1"
@@ -20,7 +20,7 @@ export default function Bio() {
         >
           <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 50}}/>Biography
         </Typography>
-        <Typography component="div" align="center" style={{ backgroundColor: '#37393F', height: '50vh', borderRadius: 30, color: "white"}}>
+        <Typography component="div" align="center" style={{ height: '50vh'}}>
           <br/>
           <br />
           <img src={leaves} alt="" height="45%" position='sticky'/>

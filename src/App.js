@@ -8,20 +8,25 @@ import Timeline from './Timeline'
 import Skills from './Skills'
 import Projects from './Projects'
 import { withAuthenticator } from '@aws-amplify/ui-react';
+import {scroller} from 'react-scroll'
 
 
 
 function App() {
+  const scrollToSection = () => {
+    scroller.scrollTo("timeline", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
 
   return (
     <div style={{backgroundColor: "#4051B5"}}>
-      <NavBar />
+      <NavBar scrollToSection={scrollToSection} />
       <NameAnime />
       <Main />
-      <Bio />
-      <Skills />
-      <Projects />
-      <Timeline />
+      <Timeline className="timeline" />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect} from 'react';
 import Rating from '@material-ui/lab/Rating';
 import StarsIcon from '@material-ui/icons/Stars';
 import Typography from '@material-ui/core/Typography';
@@ -32,7 +32,7 @@ export default function Skills() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md" style={{height: "100%"}}>
+      <Container maxWidth="lg" >
         <Typography
           component="div"
           variant="h1"

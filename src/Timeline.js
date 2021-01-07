@@ -13,10 +13,11 @@ import unlv from './pub/unlv.jpg';
 import fcr from './pub/fcr.png';
 import vision from './pub/vision.jpg';
 
-const Timeline = () => {
+const Timeline = (props) => {
+  const {className} = props
   return (
-    <React.Fragment>
-      <Container maxWidth="lg">
+    <React.Fragment >
+      <Container maxWidth="lg" className={className}>
         <Typography
               component="div"
               variant="h1"
