@@ -1,17 +1,17 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import './css/App.css';
+import '../../css/App.css';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import RingVolumeRoundedIcon from '@material-ui/icons/RingVolumeRounded';
 import CheckCircleRoundedIcon from '@material-ui/icons/CheckCircleRounded';
-import logo from './pub/ChristianLogoFinal.png';
+import logo from '../../pub/ChristianLogoFinal.png';
 
-import BioModal from './BioModal'
-import SkillsModal from './SkillsModal'
-import ProjectsModal from './ProjectsModal'
+import BioModal from '../bio/BioModal'
+import SkillsModal from '../skills/SkillsModal'
+import ProjectsModal from '../projects/ProjectsModal'
 
 const useStyles = makeStyles((theme) => ({
   root: {

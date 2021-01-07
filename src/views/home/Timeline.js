@@ -6,12 +6,12 @@ import Container from '@material-ui/core/Container';
 
 import ChildFriendlyIcon from '@material-ui/icons/ChildFriendly';
 import SportsEsportsRoundedIcon from '@material-ui/icons/SportsEsportsRounded';
-import LIC from './pub/ChristianLogoFinal.png';
-import fsa from './pub/fsa.jpg';
-import gb from './pub/gb.png';
-import unlv from './pub/unlv.jpg';
-import fcr from './pub/fcr.png';
-import vision from './pub/vision.jpg';
+import LIC from '../../pub/ChristianLogoFinal.png';
+import fsa from '../../pub/fsa.jpg';
+import gb from '../../pub/gb.png';
+import unlv from '../../pub/unlv.jpg';
+import fcr from '../../pub/fcr.png';
+import vision from '../../pub/vision.jpg';
 
 const Timeline = (props) => {
   const {className} = props

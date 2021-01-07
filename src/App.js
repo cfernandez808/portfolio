@@ -1,9 +1,9 @@
 import React from 'react';
 import './css/App.css';
-import NavBar from './Navbar';
-import Main from './Main';
-import NameAnime from './NameAnime';
-import Timeline from './Timeline';
+import NavBar from './views/home/Navbar';
+import Main from './views/home/Main';
+import NameAnime from './views/home/NameAnime';
+import Timeline from './views/home/Timeline';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import {scroller} from 'react-scroll';
 
