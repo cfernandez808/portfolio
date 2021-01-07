@@ -5,13 +5,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Amplify from "aws-amplify";
 import awsExports from "./aws-exports";
-Amplify.configure(awsExports);
+import {ThemeProvider, createMuiTheme} from '@material-ui/core';
 
+Amplify.configure(awsExports);
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#24A8E0"
+    }
+  },
+});
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>, document.getElementById('root')
+
 );
 
 // If you want to start measuring performance in your app, pass a function

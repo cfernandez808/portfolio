@@ -9,7 +9,7 @@ import RingVolumeRoundedIcon from '@material-ui/icons/RingVolumeRounded';
 import CheckCircleRoundedIcon from '@material-ui/icons/CheckCircleRounded';
 import logo from '../../pub/ChristianLogoFinal.png';
 
-import BioModal from '../bio/BioModal'
+import AboutModal from '../about/AboutModal'
 import SkillsModal from '../skills/SkillsModal'
 import ProjectsModal from '../projects/ProjectsModal'
 
@@ -68,7 +68,7 @@ const Navbar = (props) => {
             aria-label="menu">
             <img src={logo} className="App-logo" alt="logo" />
           </IconButton>
-          <BioModal modalStyle={modalStyle}  classes={classes} />
+          <AboutModal modalStyle={modalStyle}  classes={classes} />
           <SkillsModal modalStyle={modalStyle} classes={classes} />
           <ProjectsModal modalStyle={modalStyle} classes={classes} />
           <Button

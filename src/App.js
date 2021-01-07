@@ -1,11 +1,14 @@
 import React from 'react';
 import './css/App.css';
+import {scroller} from 'react-scroll';
+
 import NavBar from './views/home/Navbar';
 import Main from './views/home/Main';
 import NameAnime from './views/home/NameAnime';
 import Timeline from './views/home/Timeline';
+import Contact from './views/home/Contact'
+
 import { withAuthenticator } from '@aws-amplify/ui-react';
-import {scroller} from 'react-scroll';
 
 
 
@@ -24,6 +27,7 @@ function App() {
       <NameAnime />
       <Main />
       <Timeline className="timeline" />
+      <Contact />
     </div>
   );
 }

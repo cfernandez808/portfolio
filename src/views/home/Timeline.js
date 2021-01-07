@@ -113,7 +113,7 @@ const Timeline = (props) => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+            iconStyle={{ background: '#24A8E0', color: '#fff' }}
             icon={<ChildFriendlyIcon />}
           />
         </VerticalTimeline>

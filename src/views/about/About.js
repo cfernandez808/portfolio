@@ -18,7 +18,7 @@ export default function Bio() {
           gutterBottom= {true}
           style={{color: "white"}}
         >
-          <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 80}}/>Biography
+          <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 80}}/>About
         </Typography>
         <Container component="div">
 
