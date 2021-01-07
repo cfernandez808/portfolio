@@ -32,16 +32,16 @@ export default function Skills() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg" >
+      <Container maxWidth="lg" height="100%">
         <Typography
           component="div"
-          variant="h1"
+          variant="h2"
           align="center"
           style={{color: "white"}}
         >
-          <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 50}}/>Skills
+          <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 80}}/>Skills
         </Typography>
-        <Typography component="div" style={{ backgroundColor: '#37393F', height: '100%', borderRadius: 30, color: "white"}}>
+        <Typography component="div" style={{ color: "white"}}>
         <br />
         <br />
 

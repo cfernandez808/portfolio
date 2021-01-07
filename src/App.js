@@ -1,14 +1,13 @@
 import React from 'react';
 import './css/App.css';
-import NavBar from './Navbar'
-import Main from './Main'
-import Bio from './Bio'
-import NameAnime from './NameAnime'
-import Timeline from './Timeline'
-import Skills from './Skills'
-import Projects from './Projects'
+import NavBar from './Navbar';
+import Main from './Main';
+import NameAnime from './NameAnime';
+import Timeline from './Timeline';
 import { withAuthenticator } from '@aws-amplify/ui-react';
-import {scroller} from 'react-scroll'
+import Fab from '@material-ui/core/Fab';
+import AddIcon from '@material-ui/icons/Add';
+import {scroller} from 'react-scroll';
 
 
 

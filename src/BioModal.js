@@ -20,7 +20,7 @@ const BioModal = (props) => {
   };
 
   const body = (
-    <div style={modalStyle} className={classes.paper}>
+    <div style={modalStyle} className={classes.paper} maxWidth="20%">
       <Bio />
     </div>
   );
@@ -40,6 +40,7 @@ const BioModal = (props) => {
         onClose={handleClose}
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
+        style={{display:"flex", alignItems: 'center',}}
       >
         {body}
       </Modal>

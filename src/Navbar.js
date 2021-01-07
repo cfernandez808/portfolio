@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import './css/App.css';
 import AppBar from '@material-ui/core/AppBar';
@@ -38,12 +38,15 @@ const useStyles = makeStyles((theme) => ({
 
 function getModalStyle() {
   return {
-    height: '80vh',
-    width: '80vw',
+    height: '80%',
+    width: '80%',
     position: 'absolute',
-    transform: 'translate(10%, 10%)',
-    opacity: 0.9,
+    transform: 'translate(12.5%, 13%)',
     backgroundColor: '#37393F',
+    overflowY: 'auto',
+    overflowX: 'hidden',
+    align: 'center',
+    display: 'flex'
   }
 }
 
@@ -69,6 +72,7 @@ const Navbar = (props) => {
           </IconButton>
           <BioModal modalStyle={modalStyle}  classes={classes} />
           <SkillsModal modalStyle={modalStyle} classes={classes} />
+          <ProjectsModal modalStyle={modalStyle} classes={classes} />
           <Button
             className={classes.title}
             startIcon={<CheckCircleRoundedIcon />}
@@ -76,7 +80,6 @@ const Navbar = (props) => {
           >
             Experience
           </Button>
-          <ProjectsModal modalStyle={modalStyle} classes={classes} />
           <Button
             className={classes.title}
             startIcon={<RingVolumeRoundedIcon />}
