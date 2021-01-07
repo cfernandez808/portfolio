@@ -20,17 +20,16 @@ export default function Bio() {
         >
           <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 80}}/>Biography
         </Typography>
-        <Container component="div" style={{display: 'flex'}}>
+        <Container component="div">
 
-          <Typography component="div" style={{color: "white", justifyContent:"space-between"}}>
-            <br/>
-            <br />
-            <div>
-            <img src={leaves} alt="" position='sticky' align="left"/>
+          <Typography component="div" style={{color: "white"}}>
 
-            </div>
 
-            <br />
+            <img maxWidth='100%' width="50%" height='auto'src={leaves} alt="" position='sticky' align="left" style={{marginRight: 10}}/>
+
+
+
+
             <p>
               I was raised into humble beginnings in Hawaii, where I developed my love for video games, building computers, and technology by the age of 13. Moving to Las Vegas, I initially got accepted into West Point but turned it down to attend college at the University of Nevada, Las Vegas to be with my grandfather whose health was in decline. He passed shortly after I began school, where I finished with a B.S.B.A. in Economics & Finance (Dual Degree).
             </p>

@@ -44,9 +44,7 @@ function getModalStyle() {
     transform: 'translate(12.5%, 13%)',
     backgroundColor: '#37393F',
     overflowY: 'auto',
-    overflowX: 'hidden',
-    align: 'center',
-    display: 'flex'
+    overflowX: 'auto',
   }
 }
 

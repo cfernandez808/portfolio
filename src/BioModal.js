@@ -40,7 +40,6 @@ const BioModal = (props) => {
         onClose={handleClose}
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
-        style={{display:"flex", alignItems: 'center',}}
       >
         {body}
       </Modal>
