@@ -5,7 +5,6 @@ import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
-import SportsEsportsRoundedIcon from '@material-ui/icons/SportsEsportsRounded';
 import anime from 'animejs/lib/anime.es.js';
 
 
@@ -39,11 +38,9 @@ export default function Skills() {
           align="center"
           style={{color: "white"}}
         >
-          <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 80}}/>Skills
+          Skills
         </Typography>
         <Typography component="div" style={{ color: "white"}}>
-        <br />
-        <br />
 
         <Box component="fieldset" mb={3} borderColor="transparent">
           <Typography variant="h2" component="legend">Proficient</Typography>
@@ -90,10 +87,8 @@ export default function Skills() {
             Swift, ARKit, Python, JQuery, Mocha, Chai, Jasmine, Tableau, STATA
           </Typography>
         </Box>
-        <br/>
-        <br/>
         <Typography align="center">
-          <i>(This website is hosted on <b>AWS, and uses Cognito, S3, DyanmoDB, and Lambda</b>... by the way)</i><br /> <br />
+          <i>(This website is hosted on <b>AWS</b>)</i><br /> <br />
         </Typography>
         </Typography>
       </Container>

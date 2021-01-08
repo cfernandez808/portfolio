@@ -50,7 +50,7 @@ function getModalStyle() {
 
 
 const Navbar = (props) => {
-  const {scrollToSection} = props
+  const {scrollToTimeline, scrollToContact} = props
   const classes = useStyles();
 
   const [modalStyle] = React.useState(getModalStyle);
@@ -74,13 +74,14 @@ const Navbar = (props) => {
           <Button
             className={classes.title}
             startIcon={<CheckCircleRoundedIcon />}
-            onClick={scrollToSection}
+            onClick={scrollToTimeline}
           >
-            Experience
+            Timeline
           </Button>
           <Button
             className={classes.title}
             startIcon={<RingVolumeRoundedIcon />}
+            onClick={scrollToContact}
           >
               Contact
           </Button>

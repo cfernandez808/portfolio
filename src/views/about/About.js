@@ -3,14 +3,12 @@ import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import SportsEsportsRoundedIcon from '@material-ui/icons/SportsEsportsRounded';
 import leaves from '../../pub/leaves.jpg'
 
 export default function Bio() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container component="div" maxWidth="lg">
         <Typography
           component="div"
           variant="h2"
@@ -18,7 +16,7 @@ export default function Bio() {
           gutterBottom= {true}
           style={{color: "white"}}
         >
-          <SportsEsportsRoundedIcon style={{fontSize: '8rem', position: 'relative', paddingTop: 80}}/>About
+          About
         </Typography>
         <Container component="div">
 
@@ -38,15 +36,14 @@ export default function Bio() {
                 <b><u>I took almost a year of teaching myself JavaScript and Vue.js</u></b> until I took the leap of faith and left my job to pursue my new path. I started with <b><u>attending Fullstack Academy in NYC, where I focused on the PERN stack, in a full-time, agile, and highly collaborative environment</u></b>. For my capstone, I <b><u>learned an entirely new stack</u></b>, different from what Fullstack initially taught. My group and I even created a deep learning application, which was powered by <b><u>AWS S3, DynamoDB, Lambda, Cognito, Rekognition, and React Native</u></b>, to name a few. We are currently fine tuning our “baby” for <b><u>deployment on the iOS app store</u></b>.
               </p>
               <p>
-                I’ve been <b><u>developing and deploying web and mobile applications for small to mid-sized businesses</u></b>. My favorite part of my line of work are the completely different challenges that come with every new client, and the problems their ideas plan to solve. There’s a saying that goes something like, “there are a million great ideas out there but only few actually are made.” Ultimately, <b><u>I have a passion for helping others and I want to be that person to help those "lost-great-ideas" find their way to fruition</u></b>.
+                I’ve been <b><u>developing and deploying web and mobile applications for small to mid-sized businesses</u></b>. My favorite part of my line of work are the completely different challenges that come with every new client, and the problems their ideas plan to solve. There’s a saying that goes something like, “there are a million great ideas out there but only few actually are made.” Ultimately, <b><u>I have a passion for helping others and I want to be that person to solve problems of bringing those "lost-great-ideas" to fruition</u></b>.
               </p>
               <p>
-                <b><u>Who am I? Working with new technologies excite me. Making an impact on the world through technology fuels me. Video games, anime, and Jiu Jitsu keep me sane. Most importantly innovation through collaboration, a love for being out of my comfort zone, clean code, cleaner user experiences, and Software Development define me. Often times I've been told that I learn new technologies quickly, which is incorrect. Through the illusion, people don't see I try a million-and-one different options, where a million of the options were dead end, and one being a winner.</u></b>
+                <b><u>Who am I? Working with new technologies excite me. Making an impact on the world through technology fuels me. Video games, anime, and Jiu Jitsu keep me sane. Most importantly innovation through collaboration, a love for being out of my comfort zone, clean code, cleaner user experiences, and Software Development define me. Often times I've been told that I learn new technologies quickly, which is incorrect. Through the illusion, people don't see I try a million-and-one different options, where a million of the options were dead ends, and one being a winner.</u></b>
               </p>
             </div>
           </Typography>
         </Container>
-      </Container>
     </React.Fragment>
   );
 }

@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Amplify from "aws-amplify";
-import awsExports from "./aws-exports";
+// import Amplify from "aws-amplify";
+// import awsExports from "./aws-exports";
 import {ThemeProvider, createMuiTheme} from '@material-ui/core';
 
-Amplify.configure(awsExports);
+// Amplify.configure(awsExports);
 const theme = createMuiTheme({
   palette: {
     primary: {

@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import FolderRoundedIcon from '@material-ui/icons/FolderRounded';
 import Projects from './Projects'
 
-const BioModal = (props) => {
+const ProjectsModal = (props) => {
   const {
     modalStyle,
     classes,
@@ -46,4 +46,4 @@ const BioModal = (props) => {
   )
 }
 
-export default BioModal;
+export default ProjectsModal;

@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
-import Box from '@material-ui/core/Box'
+import Box from '@material-ui/core/Box';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -36,24 +36,26 @@ const useStyles = makeStyles((theme) => ({
 const Contact = (props) => {
 
   const classes = useStyles();
-
+  const {className} = props
   return (
-    <div className={classes.root}>
-      <AppBar position="sticky">
-        <Toolbar component="div" style={{justifyContent:"center"}} >
-          <Box component="div">
-            <Button href="mailto: christian@thelifeincode.com">
-              <EmailIcon style={{width: '30%', height: 'auto', maxWidth: "30%"}}/>
-            </Button>
-            <Button href="https://www.linkedin.com/in/christianbfernandez808/">
-              <LinkedInIcon  style={{width: '30%', height: 'auto', maxWidth: "30%"}}/>
-            </Button>
-            <Button href="https://github.com/cfernandez808">
-              <GitHubIcon style={{width: '30%', height: 'auto', maxWidth: "30%"}} />
-            </Button>
-          </Box>
-        </Toolbar>
-      </AppBar>
+    <div className={className}>
+      <div className={classes.root}>
+        <AppBar position="sticky">
+          <Toolbar component="div" style={{justifyContent:"center"}} >
+            <Box component="div">
+              <Button href="mailto: christian@thelifeincode.com">
+                <EmailIcon style={{width: '30%', height: 'auto', maxWidth: "30%"}}/>
+              </Button>
+              <Button href="https://www.linkedin.com/in/christianbfernandez808/">
+                <LinkedInIcon  style={{width: '30%', height: 'auto', maxWidth: "30%"}}/>
+              </Button>
+              <Button href="https://github.com/cfernandez808">
+                <GitHubIcon style={{width: '30%', height: 'auto', maxWidth: "30%"}} />
+              </Button>
+            </Box>
+          </Toolbar>
+        </AppBar>
+      </div>
     </div>
   );
 }
