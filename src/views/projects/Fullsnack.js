@@ -61,17 +61,14 @@ const Fullsnack = (props) => {
             </CardActions>
             <Collapse in={fullsnackExpanded} timeout="auto" unmountOnExit>
               <CardContent>
-                <Typography paragraph>Method:</Typography>
                 <Typography paragraph>
-                  Short description
+                  Fullsnack is another web app built as part of the Fullstack curriculum, and was my first agile <u>group</u> project completed there. Here, we were instructed to create a mock e-commmerce website using the FSA tech stack, but style was not a priority. We utilized Postgres, Express, Node, and React in order to fine tune what we were taught at the school.
                 </Typography>
                 <Typography paragraph>
-                  Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high
-                  heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly
-                  browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving chicken
-                  and chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes, onion, salt and
-                  pepper, and cook, stirring often until thickened and fragrant, about 10 minutes. Add
-                  saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+                  <b>An interesting challenge faced here was creating a robust payment system into our application. What I did in order to solve this problem was I deciphered the Stripe API documentation and implemented a payment portal that finished your checkout through a Stripe hosted webpage. Furthermore, I implemented a currency option on our site where you could choose Japan, USA, or Austrailia, which automatically updates your cart total on Stripe in matching the conversion cost.</b>
+                </Typography>
+                <Typography paragraph>
+                  Additionally, I also gained exposure with managing a project in a collaborative setting where we used <b>GitHub Organizations, Projects, Issues, and Pull Requests</b>.
                 </Typography>
               </CardContent>
             </Collapse>

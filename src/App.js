@@ -5,6 +5,7 @@ import Main from './views/home/Main';
 import NameAnime from './views/home/NameAnime';
 import Timeline from './views/home/Timeline';
 import Contact from './views/home/Contact'
+import Alert from './views/home/Alert';
 import {scroller} from 'react-scroll';
 
 
@@ -30,6 +31,7 @@ function App() {
       <Main />
       <Timeline className="timeline" />
       <Contact className="contact"  />
+      <Alert />
     </div>
   );
 }

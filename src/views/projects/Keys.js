@@ -62,17 +62,17 @@ const Keys = (props) => {
             </CardActions>
             <Collapse in={keysExpanded} timeout="auto" unmountOnExit>
               <CardContent>
-                <Typography paragraph>Method:</Typography>
                 <Typography paragraph>
-                  Short description
+                  I've always wondered how augmented reality worked, and even more so, I've always wondered where my items went. In fact, leading up to this application, I lost my keys 3 times in a span of two weeks. Same thing goes for my wallet, socks, underwear, and I always hoped I wasn't the only one. Turns out, I'm not!
                 </Typography>
                 <Typography paragraph>
-                  Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high
-                  heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly
-                  browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving chicken
-                  and chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes, onion, salt and
-                  pepper, and cook, stirring often until thickened and fragrant, about 10 minutes. Add
-                  saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+                  I know there's a company out there called Tile that uses a little chip that you could attach to anything you don't want to lose and you could track its location through their application. Only problem? Once I found the general location of my item, I then played a fun game of hide-and-seek.
+                </Typography>
+                <Typography paragraph>
+                  At its curremt state, this app is a proof of concept. I hard coded the Las Vegas Strip's coordinates which I obtained from a quick Google search, and a set of 2D keys render on your device using augmented reality, and point to where I "lost" my keys (the Las Vegas Strip).
+                </Typography>
+                <Typography paragraph>
+                  In the near future, instead of a set of 2D keys, I will point a 3D arrow to your lost item. And instead of using a chip like Tile, I'll utilize another phone (for now). <b>What this app plans to do is render a 3D arrow on your device that points to your lost item. Once you are in close proximity, a new virtual arrow would render and anchor directly above your item to eliminate that game of hide-and-seek.</b>
                 </Typography>
               </CardContent>
             </Collapse>

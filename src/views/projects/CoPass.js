@@ -61,17 +61,20 @@ const CoPass = (props) => {
             </CardActions>
             <Collapse in={copassExpanded} timeout="auto" unmountOnExit>
               <CardContent>
-                <Typography paragraph>Method:</Typography>
                 <Typography paragraph>
-                  Short description
+                  I hold this project in a special place in my heart. Besides it being my Capstone at Fullstack, I originally came up with the idea around April 2020. The global pandemic affected my friends and even my own family's small business. Walking into my favorite chicken wing restaurant, I got my temperature scanned and I thought of this idea that could act as another layer of protection for small businesses in preventing outbreaks at their establishment. <b>At its current state, our application leverages AWS's deep learning capabilities for facial recognition. Employees wouldn't need to come in close proximity to scan temperatures of customers that aren't quarantining, who previously dinged high temperatures at another business on our ecosystem. We look to integrate Flir's thermal camera that you could add to your iphone, and integrate their API so the whole facial and temperature scan could be done with one button press, from a distance, as an added feature to our app.</b>
                 </Typography>
                 <Typography paragraph>
-                  Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high
-                  heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly
-                  browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving chicken
-                  and chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes, onion, salt and
-                  pepper, and cook, stirring often until thickened and fragrant, about 10 minutes. Add
-                  saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+                  Although I started the idea and researched what technologies to use going into Capstone,<b>my teammates Josie Chen and Romina Ionascu</b> helped fine tune the concept and make it even better than what I originally planned. This application is far from what I had in mind at Day 0, for the better, and it's all because of these two.
+                </Typography>
+                <Typography paragraph>
+                  A challenge faced here was with the robust stack we used, which was completely different from what Fullstack taught us in a 2.5 week agile sprint. <b>Instead of using the PERN stack we used AWS S3, DynamoDB, Cognito, Rekognition, Amplify, React Native, and Xcode to name a few</b>. Our first week alone was dedicated to learning the relevant AWS technoligies to use and <b>how</b> to implement them.
+                </Typography>
+                <Typography paragraph>
+                  <b>Another challenge faced was creating a user friendly experience, so the businesses of our application could track other businesses in their area who have been increasing in cases. I solved this by leveraging the Mapbox and Foursquare APIs, along with our DynamoDB back end. Upon doing so, our application has an interactive map with millions of businesses both on and off our ecosystem. If a business is apart of our application, you could click on their map marker and see how many cases they've had in recent weeks.</b>
+                </Typography>
+                <Typography paragraph>
+                  Ultimately, our job here is not done! We believe this application could truly help small businesses, including my friends and family who got affected. We are currently in our Alpha testing stages and are cleaning up our UI/UX experiences with one goal in sight: deployment on the iOS store.
                 </Typography>
               </CardContent>
             </Collapse>
